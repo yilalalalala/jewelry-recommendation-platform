@@ -1,8 +1,6 @@
 # JewelRank — Explainable Jewelry Recommendation Platform
 
-JewelRank is a clean-room, full-stack recommendation system built around transparent ranking rather than opaque product claims. It combines a FastAPI service, SQLAlchemy persistence, a deterministic synthetic catalog, and a React/TypeScript interface.
-
-This repository is an independent portfolio implementation by Yila Cao. It does not copy the earlier team repository's frontend, shared dataset, product images, credentials, or Git history.
+JewelRank is a full-stack recommendation system built around transparent ranking rather than opaque product claims. It combines a FastAPI service, SQLAlchemy persistence, a deterministic synthetic catalog, and a React/TypeScript interface.
 
 ## What it demonstrates
 
@@ -103,10 +101,6 @@ The catalog is generated deterministically in code and contains no scraped produ
 - Offline evaluation against real user feedback would require a consented, licensed dataset and a predeclared metric protocol.
 - Authentication, per-user histories, migrations, and production observability are natural next increments.
 - A deployed demo should be linked only after the API and frontend are tested together in production.
-
-## Authorship
-
-Designed and independently implemented by **Yila Cao** in 2026 as a clean portfolio rebuild informed by lessons from an earlier collaborative database-and-ML course project. No collaborator-owned implementation or private employer code is included.
 
 ## License
 
